@@ -1,5 +1,6 @@
 FROM python:3.8-slim-buster
 
+RUN npm install -g npm@9.1.3
 
 WORKDIR /python-docker
 
